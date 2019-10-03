@@ -1,0 +1,22 @@
+﻿---
+BasedOnStyle: WebKit
+AccessModifierOffset: '-4'
+AlignEscapedNewlinesLeft: 'false'
+AlignConsecutiveAssignments: 'false'
+AlignOperands: 'true'
+AlignAfterOpenBracket: 'Align'
+AlignTrailingComments: 'true'
+BinPackArguments: 'false'
+BinPackParameters: 'false'
+AllowAllParametersOfDeclarationOnNextLine: 'false'
+AllowShortBlocksOnASingleLine: 'true'
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: 'true'
+AllowShortLoopsOnASingleLine: 'true'
+BreakBeforeBinaryOperators: 'true'
+IndentWidth: '4'
+Language: Cpp
+MaxEmptyLinesToKeep: '2'
+NamespaceIndentation: All
+
+...

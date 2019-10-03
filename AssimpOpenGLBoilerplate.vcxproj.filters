@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCamera.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="SceneLoader.cpp">
+      <Filter>SceneLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Components\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderMaterialDefault.cpp">
+      <Filter>Components\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderMaterialSkyBox.cpp">
+      <Filter>Components\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderFastMeshRender.cpp">
+      <Filter>Components\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectAnimation.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RootSceneObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderWater.cpp">
+      <Filter>Components\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{49390c60-6512-4d5e-8db8-933f611b3594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties">
+      <UniqueIdentifier>{ae059733-cfad-43ba-8a80-12983f7623a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{d4cdd850-b111-4dba-aa05-f916edd415bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneLoader">
+      <UniqueIdentifier>{4c454dc9-d282-4f8a-adca-a69b0bee2c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Shaders">
+      <UniqueIdentifier>{00b8005c-bc6f-4007-8879-d0bb14d66da9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCamera.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h" />
+    <ClInclude Include="SceneLoader.h">
+      <Filter>SceneLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderMaterialDefault.h">
+      <Filter>Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderMaterialSkyBox.h">
+      <Filter>Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLImports.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderFastMeshRender.h">
+      <Filter>Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectAnimation.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RootSceneObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderWater.h">
+      <Filter>Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DefaultMaterial.vert">
+      <Filter>Components\Shaders</Filter>
+    </None>
+    <None Include="DefaultMaterial.frag">
+      <Filter>Components\Shaders</Filter>
+    </None>
+    <None Include="SkyBoxShader.frag">
+      <Filter>Components\Shaders</Filter>
+    </None>
+    <None Include="SkyBoxShader.vert">
+      <Filter>Components\Shaders</Filter>
+    </None>
+    <None Include="FastMeshShader.vert">
+      <Filter>Components\Shaders</Filter>
+    </None>
+    <None Include="FastMeshShader.frag">
+      <Filter>Components\Shaders</Filter>
+    </None>
+    <None Include="WaterShader.frag">
+      <Filter>Components\Shaders</Filter>
+    </None>
+    <None Include="WaterShader.vert">
+      <Filter>Components\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

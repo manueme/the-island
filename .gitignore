@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# Other
+Release/
+Debug/
+x64/
+.vs/
+libraries/
+*.db
+*.DotSettings
+*.TMP
